@@ -1,27 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href='https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Codystar' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="./styles.css">
-  <title>Nahomy</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Nahomy y Fong</title>
 </head>
 <body>
-  <div id="background">
-    <p class="left">Mi corazon</p>
-    <p class="right">Es tuyo</p>
-  </div>
-  <div id="chest">
-      <div class="heart left side top">
-        <button id="redirect" style="height: 50px;">Click</button>
+    
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">Nuestra historia</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Nahomy y Fong</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Historia</a>
+            </ul>
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./pages/primer_mes.html">1er Mes</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./pages/segundo_mes.html" class="nav-link active">2do Mes</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./pages/tercer_mes.html" class="nav-link active">3er Mes</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./pages/cuarto_mes.html" class="nav-link active">4to Mes</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./pages/quinto_mes.html" class="nav-link active">5to Mes</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./heart-beet/index.html" class="nav-link active">Notas</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Nosotros</h1>
+        <div class="mb-3">
+            <p>Te conocí en marzo del 2022, desde el primer día supe que eras el amor de mi vida, amo pasar todo el tiempo junto a ti, aunque la distancia nos impida muchas cosas tú me haces super feliz y quiero que sepas que eres la unica niña que yo quiero en toda mi vida </p>
+            <p>A pesar de todas nuestras discusiones hemos podido tener algo bonito, y quiero que sepas que yo haría de todo por verte feliz, tu eres todo para mi</p>
+            <p>El 10 de Septiembre del 2023 es un día super especial para mi, fue aquí donde empezó nuestro verdadero amor, donde nos alejamos de nuestro ego y comenzamos a ser más empaticos con nosotros, fue aquí donde todo empezó, y es algo que yo nunca quisiera que acabara</p>
+
+            <h5>Eres todo para mi.</h5>
+            <h5>Eres el amor de mi vida</h5>
+
+            <h1>Poema</h1>
+            <p>Desde que te conocí todo cambió</p>
+            <p>Eres lo que más he anhelado</p>
+            <p>Eres un tesoro que ilumina mi vida más y más cada día</p>
+            <br>
+            <p>Te amo más de lo que puedas imaginar</p>
+            <p>Contigo siempre voy a estar</p>
+        </div>
+
+
+
+        <h1>Galeria</h1>
+        <div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 10px; margin-bottom: 50px; justify-content: center;">
+            <img style="width: 300px; border-radius: 10px; box-shadow: 5px 5px 10px rgba(0,0,0,0.5); " src="./src/ella-besos.jpg" alt=""/>
+            <img style="width: 200px; border-radius: 10px; box-shadow: 5px 5px 10px rgba(0,0,0,0.5); " src="./src/flores-cara.jpg" alt=""/>
+            <video style="width: 200px; border-radius: 10px; box-shadow: 5px 5px 10px rgba(0,0,0,0.5); " src="./src/notita3.mp4" alt="" autoplay muted></video>
+            <img style="width: 200px; border-radius: 10px; box-shadow: 5px 5px 10px rgba(0,0,0,0.5); " src="./src/flores-cara2.jpg" alt=""/>
+            <img style="width: 200px; border-radius: 10px; box-shadow: 5px 5px 10px rgba(0,0,0,0.5); " src="./src/notita1.jpg" alt=""/>
+            <img style="width: 200px; border-radius: 10px; box-shadow: 5px 5px 10px rgba(0,0,0,0.5); " src="./src/flores-cuerpo-alto.jpg" alt=""/>
+            <img style="width: 200px; border-radius: 10px; box-shadow: 5px 5px 10px rgba(0,0,0,0.5); " src="./src/flores-cuerpo.jpg" alt=""/>
+            <img style="width: 200px; border-radius: 10px; box-shadow: 5px 5px 10px rgba(0,0,0,0.5); " src="./src/notita2.jpg" alt=""/>
+            <img style="width: 200px; border-radius: 10px; box-shadow: 5px 5px 10px rgba(0,0,0,0.5); " src="./src/flores.jpg" alt=""/>
+            <img style="width: 200px; border-radius: 10px; box-shadow: 5px 5px 10px rgba(0,0,0,0.5); " src="./src/fondo-pantalla-celular.jpg" alt=""/>
+          <video style="width: 200px; border-radius: 10px; box-shadow: 5px 5px 10px rgba(0,0,0,0.5); " src="./src/video-pantalla.mp4" autoplay muted></video>
+            <img style="width: 200px; border-radius: 10px; box-shadow: 5px 5px 10px rgba(0,0,0,0.5); " src="./src/funda-fotos-ella.jpg" alt=""/>
+            <video style="width: 200px; border-radius: 10px; box-shadow: 5px 5px 10px rgba(0,0,0,0.5); " src="./src/notita5.mp4" alt="" autoplay muted></video>
+            <img style="width: 200px; border-radius: 10px; box-shadow: 5px 5px 10px rgba(0,0,0,0.5); " src="./src/nosotros-filtro.jpg" alt=""/>
+            <img style="width: 200px; border-radius: 10px; box-shadow: 5px 5px 10px rgba(0,0,0,0.5); " src="./src/notita4.jpg" alt=""/>
+            <img style="width: 350px; border-radius: 10px; box-shadow: 5px 5px 10px rgba(0,0,0,0.5); " src="./src/nosotros-lengua.jpg" alt=""/>
+            <img style="width: 200px; border-radius: 10px; box-shadow: 5px 5px 10px rgba(0,0,0,0.5); " src="./src/notita6.jpg" alt=""/>
+            <img style="width: 200px; border-radius: 10px; box-shadow: 5px 5px 10px rgba(0,0,0,0.5); " src="./src/nosotros-ositos.jpg" alt=""/>
+            
+        </div>
     </div>
-      <div class="heart center">&hearts;
-     </div>
-      <div class="heart right side"></div>
-  </div> 
-  
-  <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
