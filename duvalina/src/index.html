@@ -322,9 +322,8 @@
         <script>
           var audios = ["audio1", "audio2", "audio3"];
           var currentIndex = 0;
-      
-          function playNextAudio() {
-              window.addEventListener("click", function() {
+              
+          window.addEventListener("click", function() {
                 var audio = document.getElementById(audios[currentIndex]);
               audio.play();
               currentIndex++;
@@ -338,10 +337,7 @@
               audio.addEventListener("ended", playNextAudio);
 
               })
-          }
       
-          // Iniciar la reproducción del primer audio
-          playNextAudio();
       </script>
 
       </body>
